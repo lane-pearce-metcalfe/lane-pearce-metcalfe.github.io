@@ -1,5 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: var(--dark-green);
+  color: var(--cream-white);
 }
 
 :root {
