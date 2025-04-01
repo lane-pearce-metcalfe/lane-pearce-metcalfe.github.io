@@ -5,9 +5,9 @@ body {
 }
 
 :root {
-  --light-green: rgb(96, 108, 56);
-  --dark-green: rgb(40, 54, 24);
+  --light-green: rgb(101, 109, 74);
+  --dark-green: rgb(51, 61, 41);
   --cream-white: rgb(254, 250, 224);
-  --light-orange: rgb(221, 161, 94);
-  --dark-orange: rgb(188, 108, 37);
+  --light-orange: rgb(147, 102, 57);
+  --dark-orange: rgb(88, 47, 14);
 }
