@@ -1,3 +1,11 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+:root {
+  --light-green: rgb(96, 108, 56);
+  --dark-green: rgb(40, 54, 24);
+  --cream-white: rgb(254, 250, 224);
+  --light-orange: rgb(221, 161, 94);
+  --dark-orange: rgb(188, 108, 37);
+}
