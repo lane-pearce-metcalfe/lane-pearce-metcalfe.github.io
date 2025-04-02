@@ -35,3 +35,14 @@
   margin: 0;
   justify-self: center;
 }
+
+.header button:hover {
+  border-bottom: 3px solid var(--dark-orange);
+  margin-bottom: 0;
+}
+
+.header button:active {
+  color: var(--washed-out-green);
+  border-bottom: 3px solid var(--dark-orange);
+  margin-bottom: 0;
+}
