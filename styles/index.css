@@ -1,0 +1,37 @@
+:root {
+  --washed-out-green: rgb(154, 160, 134);
+  --light-green: rgb(101, 109, 74);
+  --dark-green: rgb(51, 61, 41);
+  --cream-white: rgb(254, 250, 224);
+  --light-orange: rgb(147, 102, 57);
+  --dark-orange: rgb(88, 47, 14);
+}
+
+.header {
+  background-color: var(--light-green);
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  padding: 10px 20px;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 60px;
+}
+
+.header button {
+  border: none;
+  background-color: transparent;
+  color: var(--cream-white);
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 3px;
+}
+
+.header h2 {
+  margin: 0;
+  justify-self: center;
+}
