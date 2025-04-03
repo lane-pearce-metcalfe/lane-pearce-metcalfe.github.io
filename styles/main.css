@@ -12,6 +12,10 @@ body {
   --dark-orange: rgb(88, 47, 14);
 }
 
+a {
+  color: var(--cream-white);
+}
+
 .body-container {
   margin-top: 100px;
   display: flex;
