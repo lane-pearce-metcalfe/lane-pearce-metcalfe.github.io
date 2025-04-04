@@ -2,6 +2,8 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--dark-green);
   color: var(--cream-white);
+  min-height: 100vh;
+  margin: 0;
 }
 
 :root {
@@ -22,6 +24,7 @@ a {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  margin-bottom: 100px;
 }
 
 .header {
@@ -65,4 +68,13 @@ a {
   color: var(--washed-out-green);
   border-bottom: 3px solid var(--dark-orange);
   margin-bottom: 0;
+}
+
+footer {
+  position: relative;
+  margin-top: 100%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: var(--dark-orange);
 }
