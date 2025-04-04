@@ -6,3 +6,13 @@
   --light-orange: rgb(147, 102, 57);
   --dark-orange: rgb(88, 47, 14);
 }
+
+h1 {
+  margin: 10px;
+  font-size: 50px;
+}
+
+p {
+  font-size: 25px;
+  margin: 10px;
+}
