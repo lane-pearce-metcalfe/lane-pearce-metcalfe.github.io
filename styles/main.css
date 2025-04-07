@@ -78,3 +78,26 @@ footer {
   right: 0;
   background-color: var(--dark-orange);
 }
+
+@media (max-width: 600px) {
+  p {
+    font-size: 15px !important;
+    text-align: center;
+  }
+  h3 {
+    font-size: 20px !important;
+  }
+  h1 {
+    font-size: 25px !important;
+    text-align: center !important;
+  }
+  h2 {
+    font-size: 15px !important;
+  }
+  a {
+    font-size: 10px !important;
+  }
+  h4 {
+    font-size: 20px !important;
+  }
+}
