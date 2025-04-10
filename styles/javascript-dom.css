@@ -1,0 +1,14 @@
+#change-btn-txt {
+  background-color: gray;
+  border: 4px solid white;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+#change-btn-txt:hover {
+  opacity: 0.8;
+}
