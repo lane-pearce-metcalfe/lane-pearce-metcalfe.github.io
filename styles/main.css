@@ -40,6 +40,10 @@ a {
   height: 60px;
 }
 
+#menu-icon {
+  height: 50px;
+}
+
 .header button {
   border-width: 0px;
   background-color: transparent;

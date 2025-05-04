@@ -1,0 +1,217 @@
+<html>
+  <head>
+    <title>Main page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles/new-main.css">
+    <link rel="stylesheet" href="styles/main-screen.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <!--Desktop-->
+    <div class="main-screen-body">
+      <div class="icon-div">
+        <img src="img/internet.png" id="internet" class="icons">
+        <p class="icon-text">Internet</p>
+      </div>
+      <div class="icon-div">
+        <img src="img/folder.png" id="blog-folder" class="icons">
+        <p class="icon-text">Blogs</p>
+      </div>
+      <div class="icon-div">
+        <img src="img/question-mark.png" id="about-me" class="icons">
+        <p class="icon-text">About Me</p>
+      </div>
+      <div class="icon-div">
+        <img src="img/minesweeper.png" id="minesweeper" class="icons">
+        <p class="icon-text">Minesweeper</p>
+      </div>
+    </div>
+
+    <!--Main folder-->
+    <div class="folder" id="main-folder" style="display: none; z-index: 3000;">
+      <div class="folder-header">
+        <p>(C:)</p>
+        <div class="header-btns">
+          <div class="header-btn-icon">X</div>
+        </div>
+      </div>
+
+      <div class="folder-content">
+
+        <div class="folder-content-div main-folder-content" id="week-1-blog-folder">
+          <img class="folder-img" src="img/folder.png">
+          <p class="folder-text">Week 1</p>
+        </div>
+
+        <div class="folder-content-div main-folder-content" id="week-2-blog-folder">
+          <img class="folder-img" src="img/folder.png">
+          <p class="folder-text">Week 2</p>
+        </div>
+
+        <div class="folder-content-div main-folder-content" id="week-3-blog-folder">
+          <img class="folder-img" src="img/folder.png">
+          <p class="folder-text">Week 3</p>
+        </div>
+
+        <div class="folder-content-div main-folder-content" id="week-4-blog-folder">
+          <img class="folder-img" src="img/folder.png">
+          <p class="folder-text">Week 4</p>
+        </div>
+
+        <div class="folder-content-div main-folder-content" id="week-5-blog-folder">
+          <img class="folder-img" src="img/folder.png">
+          <p class="folder-text">Week 5</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!--Week 1 blog folder-->
+    <div id="week-1-blog" class="folder blog-folder" style="display: none;">
+      <div class="folder-header">
+        <p>(C:)/week-1-blog</p>
+        <div class="header-btns">
+          <p class="header-btn-icon">
+            X
+          </p>
+        </div>
+      </div>
+
+      <div class="folder-content">
+
+        <div class="folder-content-div" id="sprint-1-human-skills">
+          <img class="folder-img" src="img/txt-file.png">
+          <p class="file-txt">Identity-Values-and-Strengths-exploration.txt</p>
+        </div>
+
+        <div class="folder-content-div" id="sprint-1-tech">
+          <img class="folder-img" src="img/txt-file.png">
+          <p class="file-txt">The-Story-of-Te-Houraewa.txt</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!--Week 2 blog folder-->
+    <div id="week-2-blog" class="folder blog-folder" style="display: none">
+      <div class="folder-header">
+        <p>(C:)/week-2-blog</p>
+        <div class="header-btns">
+          <div class="header-btn-icon">X</div>
+        </div>
+      </div>
+
+      <div class="folder-content">
+        
+        <div class="folder-content-div" id="sprint-2-human-skills">
+          <img class="folder-img" src="img/txt-file.png">
+          <p class="file-txt">My-Learning-Plan.txt</p>
+        </div>
+
+        <div class="folder-content-div" id="sprint-2-tech">
+          <img class="folder-img" src="img/txt-file.png">
+          <p class="file-txt">Margin-Padding-and-Borders.txt</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!--Week 3 blog folder-->
+    <div id="week-3-blog" class="folder blog-folder" style="display: none">
+      <div class="folder-header">
+        <p>(C:)/week-3-blog</p>
+        <div>
+          <div class="header-btns">
+            <p class="header-btn-icon">X</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="folder-content">
+        
+        <div class="folder-content-div" id="sprint-3-human-skills">
+          <img class="folder-img" src="img/txt-file.png">
+          <p class="file-txt">Emotional-Intelligence.txt</p>
+        </div>
+
+        <div class="folder-content-div" id="sprint-3-tech">
+          <img class="folder-img" src="img/txt-file.png">
+          <p class="file-txt">JavaScript-and-DOM.txt</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!--Week 4 blog folder-->
+    <div id="week-4-blog" class="folder blog-folder" style="display: none">
+      <div class="folder-header">
+        <p>(C:)/week-4-blog</p>
+        <div>
+          <div class="header-btns">
+            <p class="header-btn-icon">X</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="folder-content">
+        
+        <div class="folder-content-div" id="sprint-4-human-skills">
+          <img class="folder-img" src="img/txt-file.png">
+          <p class="file-txt">Te-Whare-Tapa-Whā.txt</p>
+        </div>
+
+        <div class="folder-content-div" id="sprint-4-tech">
+          <img class="folder-img" src="img/txt-file.png">
+          <p class="file-txt">Problem-Solving.txt</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!--Week 5 blog folder-->
+    <div id="week-5-blog" class="folder blog-folder" style="display: none">
+      <div class="folder-header">
+        <p>(C:)/week-5-blog</p>
+        <div>
+          <div class="header-btns">
+            <p class="header-btn-icon">X</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="folder-content">
+        
+        <div class="folder-content-div" id="sprint-5-human-skills-1">
+          <img class="folder-img" src="img/txt-file.png">
+          <p class="file-txt">Neuroplasticity-and-Growth-Mindset.txt</p>
+        </div>
+
+        <div class="folder-content-div" id="sprint-5-human-skills-2">
+          <img class="folder-img" src="img/txt-file.png">
+          <p class="file-txt">Foundations-Reflections.txt</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!--Bottom nav bar-->
+    <div class="nav-bar">
+      <div>
+
+      </div>
+      <div>
+
+      </div>
+      <div id="clock-div">
+        <p id="clock-text"><span id="hour"></span>:<span id="minute"></span>:<span id="second"></span><span id="APM"></span></p>
+      </div>
+    </div>
+    
+    <script src="src/main.js" type="module"></script>
+  </body>
+</html>

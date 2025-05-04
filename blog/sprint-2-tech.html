@@ -1,0 +1,125 @@
+<html>
+  <head>
+    <title>
+      Sprint 2 Tech
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../styles/blog-main.css">
+    <link rel="stylesheet" href="../styles/sprint-2-tech.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div id="border-left"></div>
+    <div id="border-bottom"></div>
+    <div id="border-right"></div>
+    <div class="blog-header">
+      <div class="header-txt">
+        (C:/week-2-blog/Margin-Padding-and-Borders.txt)
+      </div>
+      <div class="header-btns">
+        <p class="header-btn-icon" id="close-btn">X</p>
+      </div>
+    </div>
+    <div class="body-content">
+      <h2 class="dashes">----------------------------------------------------------------------------</h2>
+      <h1>Margin, padding, and borders</h1>
+      <h2 class="dashes">----------------------------------------------------------------------------</h2>
+      <h3>Padding</h3>
+      <div class="demonstration-section">
+        <p>
+          To explain the differnces between these differnt CSS propertys we'll
+          first have to imagine a box like this one right here!
+        </p>
+        <div class="demonstration">
+          <div class="black-box" id="box-appear"></div>
+        </div>
+      </div>
+      <div class="demonstration-section">
+      <p>
+        And we'll throw in some text inside of it, this will be the content.
+      </p>
+      <div class="demonstration">
+        <div class="black-box"><p id="text-fade-in">Hello!</p></div>
+      </div>
+    </div>
+    <div class="demonstration-section">
+      <p>
+        The first concept we'll be exploring is padding. When you increase your
+        padding you can imagine the box expanding away from the content
+        inside of it and increases the space between the content and the sides
+        of the box like this.
+      </p>
+      <div class="demonstration">
+        <div class="black-box" id="padding"><p>Hello!</p></div>
+      </div>
+    </div>
+    <h3>Margin</h3>
+    <div class="demonstration-section">
+      <p>
+        Next up is the margin. For this we'll need to throw something up above
+        the box.
+      </p>
+      <div class="demonstration">
+        <div class="above-black-box"></div>
+        <div class="black-box"><p>Hello!</p></div>
+      </div>
+    </div>
+    <div class="demonstration-section">
+      <p>
+        When you apply margin the box pushes itself away from the other content
+        around it. Rather than padding where the box changes it proportions
+        to get away from the internal contents, margin moves the box away from
+        external contents
+      </p>
+      <div class="demonstration">
+        <div class="above-black-box"></div>
+        <div class="black-box" id="margin"><p>Hello!</p></div>
+      </div>
+    </div>
+    <h3>Border</h3>
+      <div class="demonstration-section">
+      <p>
+        Finally theres the border which just... creates a border... but the
+        border also has a few options to customize it such as border width...
+      </p>
+      <div class="demonstration">
+        <div class="black-box" id="border-width"><p>Hello!</p></div>
+      </div>
+    </div>
+    <div class="demonstration-section">
+      <p>Border color...</p>
+      <div class="demonstration">
+        <div class="black-box" id="border-color"><p>Hello!</p></div>
+      </div>
+    </div>
+    <div class="demonstration-section">
+      <p>And border style!</p>
+      <div class="demonstration">
+        <div class="black-box" id="border-style"><p>Hello!</p></div>
+      </div>
+    </div>
+    <div class="demonstration-section">
+      <p>
+        Do note that when increasing the borders width, it almost acts as
+        increasing the margin. While the distance between the edge of the border
+        and the<br />
+        content above doesnt change, but the border extendeds from the box
+        pushing it further down so do be aware of that when using the border
+        property.
+      </p>
+      <div class="demonstration">
+        <div class="above-black-box"></div>
+        <div class="black-box" id="border-margin"><p>Hello!</p></div>
+      </div>
+    </div>
+    </div>
+
+    <script src="../src/addBlogClicks.js"></script>
+  </body>
+</html>
