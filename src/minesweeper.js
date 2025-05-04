@@ -21,7 +21,6 @@ export function createBoard() {
   document.getElementById('game-container').innerHTML = HTML
   addMines()
   addCellClicks()
-  console.log(grid)
 }
 
 let minesPlaced

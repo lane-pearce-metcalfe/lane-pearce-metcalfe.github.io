@@ -1,10 +1,9 @@
 export function setClock() {
-  
-  const date = Date();
-  let hour = Number(date.slice(16, 18));
-  let minute = Number(date.slice(19, 21));
+  const date = Date()
+  let hour = Number(date.slice(16, 18))
+  let minute = Number(date.slice(19, 21))
   let second = Number(date.slice(22, 24))
-  let APM = 'AM';
+  let APM = 'AM'
 
   const secondId = document.getElementById('second')
   const minuteId = document.getElementById('minute')
@@ -12,7 +11,7 @@ export function setClock() {
   const APMId = document.getElementById('APM')
 
   if (hour > 12) {
-    hour -= 12;
+    hour -= 12
     APM = `PM`
   }
 
@@ -36,17 +35,14 @@ export function setClock() {
     hourId.innerHTML = `${hour}`
   }
 
-  console.log(minute)
-
   function updateClock() {
-    
-    second++;
+    second++
     if (second === 60) {
-      second = 0;
+      second = 0
       secondId.innerHTML = `0${second}`
-      minute++;
+      minute++
       if (minute === 60) {
-        minute = 0;
+        minute = 0
         minuteId.innerHTML = `0${minute}`
         hour++
       } else if (minute < 10) {
@@ -55,14 +51,13 @@ export function setClock() {
         minuteId.innerHTML = `${minute}`
       }
       if (hour === 13) {
-        hour = 1;
+        hour = 1
         hourId.innerHTML = `0${hour}`
         if (APM === 'PM') {
           APM = 'AM'
         } else {
           APM = 'PM'
         }
-
       } else if (hour < 10) {
         hourId.innerHTML = `0${hour}`
       } else {
@@ -76,6 +71,6 @@ export function setClock() {
   }
 
   setInterval(() => {
-    updateClock();
+    updateClock()
   }, 1000)
 }
