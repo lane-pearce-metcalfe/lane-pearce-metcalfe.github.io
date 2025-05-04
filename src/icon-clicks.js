@@ -8,6 +8,6 @@ export function iconClicks() {
   })
 
   document.getElementById('minesweeper').addEventListener('click', () => {
-    window.location.href = `minesweeper.html`
+    window.location.href = `./minesweeper.html`
   })
 }
