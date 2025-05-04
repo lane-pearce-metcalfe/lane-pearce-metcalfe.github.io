@@ -1,4 +1,4 @@
-import { createBoard } from './main.js'
+import { createBoard } from './minesweeper.js'
 
 export let boardSize = 10
 
